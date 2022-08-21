@@ -1,9 +1,9 @@
 /* eslint-disable no-plusplus */
-// NOTE: replace 'zGuPUlC5l5e5Nbvg7GBmqBRqGOE3' with your Firebase auth user id (can be taken from Firebase)
+// NOTE: replace 'ywoBVJL67GVIy17eQYWBU8osGNo1' with your Firebase auth user id (can be taken from Firebase)
 export function seedDatabase(firebase) {
   const users = [
     {
-      userId: "zGuPUlC5l5e5Nbvg7GBmqBRqGOE3",
+      userId: "ywoBVJL67GVIy17eQYWBU8osGNo1",
       username: "karl",
       fullName: "Karl Hadwen",
       emailAddress: "karlhadwen@gmail.com",
@@ -17,7 +17,7 @@ export function seedDatabase(firebase) {
       fullName: "Raffaello Sanzio da Urbino",
       emailAddress: "raphael@sanzio.com",
       following: [],
-      followers: ["zGuPUlC5l5e5Nbvg7GBmqBRqGOE3"],
+      followers: ["ywoBVJL67GVIy17eQYWBU8osGNo1"],
       dateCreated: Date.now(),
     },
     {
