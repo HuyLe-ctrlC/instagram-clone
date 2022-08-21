@@ -1,5 +1,8 @@
 module.exports = {
-  content: ["./src/**/*.js", "./src/**/**/*.js"],
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx, html}",
+    "./src/components/**/**/*.{js,ts,jsx,tsx, html}",
+  ],
   theme: {
     fill: (theme) => ({
       red: theme("colors.red.primary"),
