@@ -87,9 +87,5 @@ module.exports = {
   variants: {
     display: ["group-hover"],
   },
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-    ...(process.env.NODE_ENV === "production" ? { cssnano: {} } : {}),
-  },
+  plugins: [],
 };
