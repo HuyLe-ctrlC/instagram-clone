@@ -5,6 +5,7 @@ import {
   updateLoggedInUserFollowing,
   updateFollowedUserFollowers,
 } from "../../services/firebase";
+import { DEFAULT_IMAGE_PATH } from "./../../constants/paths";
 
 export default function SuggestedProfile({
   profileDocId,
@@ -31,6 +32,9 @@ export default function SuggestedProfile({
           src={require(`../../images/avatars/${username}.jpg`)}
           alt="suggested avatar"
           className="rounded-full w-8 flex mr-3"
+          onError={(e) => {
+            e.target.src = require(DEFAULT_IMAGE_PATH);
+          }}
         />
         <Link to={`/p/${username}`}>
           <p className="font-bold text-sm">{username}</p>
