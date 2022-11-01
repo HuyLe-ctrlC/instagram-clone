@@ -73,7 +73,7 @@ export default function Header({
           ) : (
             activeBtnFollow && (
               <button
-                className="bg-blue-light text-white text-sm font-bold rounded w-20 h-8"
+                className="bg-blue-500 text-white text-sm font-bold rounded w-20 h-8"
                 type="button"
                 onClick={handleToggleFollow}
                 onKeyDown={(event) => {

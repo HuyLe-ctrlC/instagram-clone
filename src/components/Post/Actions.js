@@ -50,7 +50,7 @@ export default function Action({ docId, totalLikes, likedPhoto, handleFocus }) {
             stroke="currentColor"
             tabIndex={0}
             className={`w-8 mr-4 select-none cursor-pointer focus:outline-none hover:text-gray-500 ${
-              toggleLiked ? "fill-red text-red-primary" : "text-black-light"
+              toggleLiked ? "fill-red-600 text-red-primary" : "text-black-light"
             }`}
           >
             <path

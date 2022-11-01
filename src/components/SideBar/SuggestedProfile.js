@@ -42,7 +42,7 @@ export default function SuggestedProfile({
       </div>
       <button
         type="button"
-        className="font-bold text-xs text-blue-light"
+        className="font-bold text-xs text-white bg-blue-500 rounded-lg p-1"
         onClick={handleFollowUser}
       >
         Follow
