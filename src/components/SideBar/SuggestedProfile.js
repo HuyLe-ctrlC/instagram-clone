@@ -29,7 +29,7 @@ export default function SuggestedProfile({
     <div className="flex flex-row items-center align-items justify-between">
       <div className="flex items-center justify-between">
         <img
-          src={require(`../../images/avatars/${username}.jpg`)}
+          src={require(`../../images/avatars/default.png`)}
           alt="suggested avatar"
           className="rounded-full w-8 flex mr-3"
           onError={(e) => {

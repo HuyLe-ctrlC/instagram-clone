@@ -53,7 +53,7 @@ function Header() {
                     <Link to={`/p/${user?.username}`}>
                       <img
                         className="rounded-full h-8 w-8 flex"
-                        src={require(`../images/avatars/${user?.username}.jpg`)}
+                        src={require(`../images/avatars/default.png`)}
                         alt={`${user?.username} profile avatar`}
                         onError={(e) => {
                           e.target.src = require(DEFAULT_IMAGE_PATH);

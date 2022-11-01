@@ -57,7 +57,7 @@ export default function Header({
       <div className="container flex justify-center items-center">
         {profileUsername ? (
           <img
-            src={require(`../../images/avatars/${profileUsername}.jpg`)}
+            src={require(`../../images/avatars/default.png`)}
             alt={`${profileUsername} avatar profile`}
             className="rounded-full h-40 w-40 flex"
           />

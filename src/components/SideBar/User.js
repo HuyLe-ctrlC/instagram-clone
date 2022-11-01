@@ -14,7 +14,7 @@ export default function User({ username, fullName }) {
     >
       <div className="flex items-center justify-between col-span-1">
         <img
-          src={require(`../../images/avatars/${username}.jpg`)}
+          src={require(`../../images/avatars/default.png`)}
           className="rounded-full w-16 flex mr-3"
           alt="avatar user"
           onError={(e) => {
